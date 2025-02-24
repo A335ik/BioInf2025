@@ -1,0 +1,59 @@
+Finally it's my homework
+
+echo $SHELL
+pwd
+ssh dzykov@ALDAN3.ITM-RSMU.RU
+ssh dzykov@frontend.aldan3.itm-rsmu.ru
+6Jp/YnL0I4Xrp-rt]Lw6>B
+ssh dzykov@frontend.aldan3.itm-rsmu.ru
+ls
+cd BioInf2025
+mkdir -p hw/hw_1
+cd hw/hw_1
+touch my_hw_file.txt
+vim my_hw_file.txt
+ls
+cd BioInf2025/hw/hw_1
+ls
+cat my_hw_file.txt
+vim my_hw_file.txt
+vim -r my_hw_file.txt
+vim my_hw_file.txt
+cat my_hw_file.txt
+mv my_hw_file.txt hw_file_1.txt
+ls
+mkdir homework
+cd BioInf2025
+ls
+ls hw
+cp ~/hw_file_1.txt hw/hw_1
+ls hw/hw_1
+cp hw/hw_1/hw_file_1.txt ~/homework
+ls ~/homework
+rm ~/hw_file_1
+rm ~/hw_file_1.txt
+rm hw/hw_1/my_hw_file.txt
+rm hw/hw_1/hw_file_1.txt
+cd ../
+ls
+ls homework
+cat homework/hw_file_1.txt
+sudo apt install tree
+tree -d
+sudo apt install tree
+passwd
+Vasilisa5
+passwd
+sudo passwd
+sudo apt install tree
+tree -d
+cat ~/.bash_history
+.
+├── BioInf2025
+│   ├── Seminar_1
+│   ├── hw
+│   │   └── hw_1
+│   └── test
+└── homework
+
+6 directories
