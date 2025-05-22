@@ -1,14 +1,8 @@
 #!/bin/bash
-
-# Перебираем все .tsv файлы в текущей директории
-for file in *.tsv; do
-    # Проверяем, существует ли файл
-    if [ -f "$file" ]; then
-        # Получаем имя файла без расширения
-        dirname="${file%.tsv}"
-        # Создаем директорию с именем файла
-        mkdir -p "$dirname"
-        # Перемещаем файл внутрь новой директории
-        mv "$file" "$dirname/"
-    fi
+for file in *.tsv
+do
+ filename="${file%.*}"
+ mkdir $filename
+ cp $file $filename
+ rm $file
 done
